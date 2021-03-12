@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-content {
@@ -104,7 +106,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +145,144 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-self: center;
+}
+
+.lambda-logo {
+    width: 20%;
+}
+
+header img {
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 3%;
+}
+
+/* Boxes */
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* About Page */
+
+.about-page {
+    line-height: 1.3;
+}
+
+.About-section {
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 4%;
+}
+
+.extender {
+    border-bottom: 2px dotted black;
+    margin-bottom: 2%;
+}
+
+.effective-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+
+.category {
+    width: 47%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category h2 {
+    margin-top: 5%;
+}
+
+.category a {
+    width: 45%;
+    padding: 5%;
+    margin: 5%;
+    margin-left: 0%;
+    text-decoration: none;
+    color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.extender2 {
+    border-bottom: 2px dotted black;
+    
+}
+
+.lets-work-together {
+    margin-bottom: 3%;
+}
+
+.lets-work-together h2 {
+    font-weight: bold;
+}
+
+
+
