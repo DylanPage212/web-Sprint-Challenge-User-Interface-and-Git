@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-content {
@@ -143,4 +145,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-self: center;
+}
+
+.lambda-logo {
+    width: 20%;
+}
+
+header img {
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 3%;
 }
